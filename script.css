@@ -3,23 +3,28 @@ img{                        /*google logo */
      margin: 0 auto;
      margin-top: 200px;
 }
-
-.topnavR a{                 /*top right navigation function */   
+.navbar_background a{
     list-style-type: none;
     margin: 10px;
-    padding:0px;
-    float: right;
-    display: inline;
-    color:black;
-}
-.topnavL a{                  /*top left navigation function */   
-    list-style-type: none;
-    margin:10px;
+    margin-top: 15px;
     padding:0;
-    /*float: left;  */
     display: inline;
     color:black;
+    line-height: 10px;
+    
+
 }
+
+.topnavR a{                 /*top right navigation function */   
+    text-align: right;
+    float: right;    
+}
+
+.topnavL a{                  /*top left navigation function */   
+    text-align: left;
+    float:left;    
+}
+
 .navbar_background a:hover{
     padding:0;
     float:none;
