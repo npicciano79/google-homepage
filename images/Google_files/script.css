@@ -1,0 +1,28 @@
+img{
+     display: block;
+     margin: 0 auto;
+     margin-top: 200px;
+}
+h1{
+    color:black;
+}
+.topnavR a{
+    list-style-type: none;
+    margin: 10px;
+    padding:0px;
+    float: right;
+    display: inline;
+    color:black;
+}
+.topnavL a{
+    list-style-type: none;
+    margin:10px;
+    padding:0;
+    float: left;
+    display: inline;
+    color:black;
+}
+.navbar_background{
+    padding:0;
+    background-color: coral;
+}
