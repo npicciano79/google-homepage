@@ -1,0 +1,45 @@
+img{                        /*google logo */   
+     display: block;
+     margin: 0 auto;
+     margin-top: 200px;
+}
+
+.topnavR a{                 /*top right navigation function */   
+    list-style-type: none;
+    margin: 10px;
+    padding:0px;
+    float: right;
+    display: inline;
+    color:black;
+}
+.topnavL a{                  /*top left navigation function */   
+    list-style-type: none;
+    margin:10px;
+    padding:0;
+    /*float: left;  */
+    display: inline;
+    color:black;
+}
+.navbar_background a:hover{
+    padding:0;
+    float:none;
+    color: cyan;
+}
+.searchBar input{       /*search bar function */
+    display: block;/*top left navigation function */   
+    margin:0 auto;
+    padding:5px;
+    position: center;
+    width:400px;
+}
+.round{
+    border-radius: 30px 30px 30px 30px;
+
+}
+
+.select_buttons{
+    display: inline;
+    margin: auto;
+    position: center;
+    text-align: center;
+}
